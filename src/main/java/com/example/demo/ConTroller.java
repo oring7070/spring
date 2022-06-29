@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class ConTroller {
-    @GetMapping("/hello")
+    @GetMapping("/test")
     public String home() {
         return "Hello Spring Boot";
     }
